@@ -1,6 +1,6 @@
-# CSS style
+# CSS
 
-## Document flow block and inline
+## HTML Document flow block and inline
 
 ### block:
 
@@ -18,6 +18,7 @@
 - i
 - em
 - span
+
 
 
 ## Block, Element, Modifier (BEM Methodology)
@@ -52,11 +53,9 @@ Features:
 * The [modifier name](https://en.bem.info/methodology/naming-convention/#block-modifier-name) describes its appearance ("What size?" or "Which theme?" and so on — `size_s` or `theme_islands`), its state ("How is it different from the others?" — `disabled`, `focused`, etc.) and its behavior ("How does it behave?" or "How does it respond to the user?" — such as `directions_left-top`).
 * The modifier name is separated from the block or element name by a single underscore (`_`).
 
-
-
-
-
 ## BEM tree
+
+[https://en.bem.info/methodology/key-concepts/#bem-tree](https://en.bem.info/methodology/key-concepts/#bem-tree)
 
 A representation of a web page structure in terms of blocks, elements, and modifiers. It is an abstraction over a [DOM tree](https://en.wikipedia.org/wiki/Document_Object_Model) that describes the names of BEM entities, their states, order, nesting, and auxiliary data.
 
